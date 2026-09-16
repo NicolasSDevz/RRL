@@ -28,7 +28,7 @@ nav.querySelectorAll('a').forEach(link => {
 // Header com sombra ao rolar
 const header = document.querySelector('.header');
 window.addEventListener('scroll', () => {
-  header.style.boxShadow = window.scrollY > 10 ? '0 4px 20px rgba(15,34,71,.08)' : 'none';
+  header.style.boxShadow = window.scrollY > 10 ? '0 4px 20px rgba(28,25,20,.08)' : 'none';
 });
 
 // Accordion FAQ
